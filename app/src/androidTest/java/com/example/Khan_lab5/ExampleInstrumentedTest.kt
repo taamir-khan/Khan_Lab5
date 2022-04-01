@@ -1,4 +1,4 @@
-package com.example.lab5_03_11_2022
+package com.example.Khan_lab5
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

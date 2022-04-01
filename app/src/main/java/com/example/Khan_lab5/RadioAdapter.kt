@@ -1,18 +1,16 @@
-package com.example.lab5_03_11_2022
+package com.example.Khan_lab5
 
-import android.view.InflateException
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
-import com.example.lab5_03_11_2022.model.MyMediaPlayer
-import com.example.lab5_03_11_2022.model.RadioStation
-import com.example.lab5_03_11_2022.model.RadioStations
-import java.util.zip.Inflater
+import com.example.Khan_lab5.R
+import com.example.Khan_lab5.model.MyMediaPlayer
+import com.example.Khan_lab5.model.RadioStation
+import com.example.Khan_lab5.model.RadioStations
 
 
 private var radioOn: Boolean = false

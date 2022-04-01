@@ -1,6 +1,5 @@
-package com.example.lab5_03_11_2022
+package com.example.Khan_lab5
 
-import android.media.AudioAttributes
 import android.media.MediaPlayer
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -8,8 +7,7 @@ import android.widget.Button
 import android.widget.TextView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.lab5_03_11_2022.model.RadioStation
-import com.example.lab5_03_11_2022.model.RadioStations
+import com.example.Khan_lab5.R
 
 
 class MainActivity : AppCompatActivity() {

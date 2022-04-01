@@ -1,4 +1,4 @@
-package com.example.lab5_03_11_2022.model
+package com.example.Khan_lab5.model
 
 class RadioStation(var name: String? = null, var uri: String? = null) {
 

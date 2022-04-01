@@ -1,4 +1,4 @@
-package com.example.lab5_03_11_2022.model
+package com.example.Khan_lab5.model
 import kotlin.collections.MutableList
 
 var stations: MutableList<RadioStation> = mutableListOf(RadioStation())

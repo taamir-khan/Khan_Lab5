@@ -11,7 +11,6 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.lab5_03_11_2022.model.RadioStation
 import com.example.lab5_03_11_2022.model.RadioStations
 
-//var url = "http://stream.whus.org:8000/whusfm"
 
 class MainActivity : AppCompatActivity() {
     private lateinit var  radioButton: Button
@@ -19,7 +18,6 @@ class MainActivity : AppCompatActivity() {
     private lateinit var stationName: TextView
     private var radioOn: Boolean = false
     private lateinit var recyclerView: RecyclerView
-//    private lateinit var textView: TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -28,7 +26,6 @@ class MainActivity : AppCompatActivity() {
         stationName.text = "Taamir Khan Lab 5 - Radio Stations"
 
         recyclerView = findViewById(R.id.recycleview)
-//        recyclerView.adapter = RadioAdapter(radioStations)
         recyclerView.adapter = RadioAdapter()
         recyclerView.layoutManager = LinearLayoutManager(baseContext)
     }

@@ -33,13 +33,6 @@
             android:layout_marginRight="10dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/radio_image" />
-<!--        <Button-->
-<!--            android:id="@+id/btnAddExpense"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="45dp"-->
-<!--            android:layout_marginLeft="10dp"-->
-<!--            android:layout_gravity="right"-->
-<!--            android:layout_marginRight="15dp" />-->
 
         <TextView
             android:id="@+id/uri_text"
@@ -55,15 +48,6 @@
             android:layout_height="1dp"
             android:layout_weight="2"
             android:background="?android:attr/listDivider" />
-
-
-
-        <!--        <Button-->
-        <!--            android:id="@+id/button_on_off"-->
-        <!--            android:layout_width="200dp"-->
-        <!--            android:layout_height="wrap_content"-->
-        <!--            android:layout_weight="1"-->
-        <!--            android:text="On/Off Radio" />-->
 
     </androidx.appcompat.widget.LinearLayoutCompat>
 
